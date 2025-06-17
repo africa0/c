@@ -17,7 +17,7 @@ max_iter = st.slider("Max iterations", 10, 300, 100, 10)
 zoom = st.slider("Zoom (scale)", 1.0, 100.0, st.session_state.zoom, 0.1)
 x_center = st.slider("X center", -2.0, 1.0, st.session_state.x_center, 0.01)
 y_center = st.slider("Y center", -1.5, 1.5, st.session_state.y_center, 0.01)
-cmap = st.selectbox("Color map", ['twilight_shifted', 'inferno', 'magma', 'plasma', 'viridis'])
+cmap = st.selectbox("Color map", ['Viridis','Cividis','Inferno','Magma','Plasma','Turbo','Electric','Rainbow','Greys','Blues'])
 
 # Update session state
 st.session_state.zoom = zoom
