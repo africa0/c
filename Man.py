@@ -2,7 +2,7 @@ import streamlit as st
 import numpy as np
 import plotly.graph_objects as go
 
-st.title("🌀 Mandelbrot Set Explorer with Interactive Zoom")
+st.title("🌀 Explore Mandelbrot Set with +256712427799")
 
 # Initialize session state for center and zoom
 if "x_center" not in st.session_state:
